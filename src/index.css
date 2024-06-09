@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ClashDisplay";
+  font-weight: 100;
+  src: url(/fonts/ClashDisplay-Extralight.woff);
+}
+@font-face {
+  font-family: "ClashDisplay";
+  font-weight: 300;
+  src: url(/fonts/ClashDisplay-Light.woff);
+}
+@font-face {
+  font-family: "ClashDisplay";
+  font-weight: 400;
+  src: url(/fonts/ClashDisplay-Regular.woff);
+}
+@font-face {
+  font-family: "ClashDisplay";
+  font-weight: 500;
+  src: url(/fonts/ClashDisplay-Medium.woff);
+}
+@font-face {
+  font-family: "ClashDisplay";
+  font-weight: 600;
+  src: url(/fonts/ClashDisplay-Semibold.woff);
+}
+@font-face {
+  font-family: "ClashDisplay";
+  font-weight: 800;
+  src: url(/fonts/ClashDisplay-Bold.woff);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fffefe;
+  color: white;
+  font-family: "ClashDisplay";
+  color: black;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
